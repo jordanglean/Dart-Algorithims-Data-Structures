@@ -14,4 +14,13 @@ void main(List<String> arguments) {
     print(city);
   }
 
+  // List Methods
+  // check if list is empty and not empty
+  print(cities.isEmpty);
+  print(cities.isNotEmpty);
+
+  // get first item on the list
+  print(cities.first);
+  print(cities.last);
+
 }
